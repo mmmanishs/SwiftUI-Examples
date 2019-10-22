@@ -12,19 +12,19 @@ import Combine
 struct StateContainerView: View {
     @State var color: Color = .red
     var body: some View {
-        VStack {
-            Text("Container View")
-                .fontWeight(.bold)
-                .padding(.bottom, 50)
-            MenuOptions(selectedColor: $color)
-            Spacer()
-            Text("Selected Color...")
-            .padding(.top, 200)
-            ChildView(selectedColor: $color)
-                .frame(width: 300, height: 44, alignment: .center)
-            Spacer()
+        NavigationView {
+            VStack {
+                MenuOptions(selectedColor: $color)
+                .padding(.top)
+                Spacer()
+                Text("Selected Color...")
+                .padding(.top)
+                ChildView(selectedColor: $color)
+                    .frame(width: 300, height: 44, alignment: .center)
+                Spacer()
+            }
+            .navigationBarTitle("Container View", displayMode: .inline)
         }
-
     }
 }
 
