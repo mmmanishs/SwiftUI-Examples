@@ -16,6 +16,7 @@
 		061C3497235BEA08000665FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 061C3495235BEA08000665FA /* LaunchScreen.storyboard */; };
 		061C34A2235BEA08000665FA /* SwiftUI_ExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C34A1235BEA08000665FA /* SwiftUI_ExamplesTests.swift */; };
 		061C34AF235BEA37000665FA /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C34AE235BEA37000665FA /* DragView.swift */; };
+		061F34E7235EC47100415621 /* UsingStateWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061F34E6235EC47100415621 /* UsingStateWithBinding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		061C34A1235BEA08000665FA /* SwiftUI_ExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExamplesTests.swift; sourceTree = "<group>"; };
 		061C34A3235BEA08000665FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		061C34AE235BEA37000665FA /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		061F34E6235EC47100415621 /* UsingStateWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingStateWithBinding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		061C34AC235BEA0D000665FA /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				061F34E5235EC44B00415621 /* UsingStateWithBinding */,
 				061C34AD235BEA1D000665FA /* DragView */,
 			);
 			path = Examples;
@@ -127,6 +130,14 @@
 				061C34AE235BEA37000665FA /* DragView.swift */,
 			);
 			path = DragView;
+			sourceTree = "<group>";
+		};
+		061F34E5235EC44B00415621 /* UsingStateWithBinding */ = {
+			isa = PBXGroup;
+			children = (
+				061F34E6235EC47100415621 /* UsingStateWithBinding.swift */,
+			);
+			path = UsingStateWithBinding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			files = (
 				061C3488235BEA07000665FA /* AppDelegate.swift in Sources */,
 				061C348A235BEA07000665FA /* SceneDelegate.swift in Sources */,
+				061F34E7235EC47100415621 /* UsingStateWithBinding.swift in Sources */,
 				061C348F235BEA07000665FA /* ContentView.swift in Sources */,
 				061C348D235BEA07000665FA /* SwiftUI_Examples.xcdatamodeld in Sources */,
 				061C34AF235BEA37000665FA /* DragView.swift in Sources */,
